@@ -1,6 +1,6 @@
 {
   "name": "openapi-clientlib",
-  "version": "1.9.2-pagination-beta",
+  "version": "2.0.0-beta.5",
   "engines": {
     "node": ">=4"
   },

@@ -1,3 +1,10 @@
+#### v2.0.0
+
++ Breaking Change - TransportBatch no longer has an auth argument. It requires that either individual calls have auth headers or that the underlying transport is authenticated
++ Breaking Change - Utils no longer contains a way to create a random guid
++ Breaking change to the batch building utils - it now returns the boundary it will use
++ Much smaller batch requests
+
 #### v1.9.1
 
 + Add nano-precision to protobuf deserialization
